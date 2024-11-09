@@ -1,13 +1,26 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 
-import Container from './styles';
+import { Header, Wrapper} from "./styles.js"
+import Card from "../../components/Card";
+
 
 const Home = () => {
-    return (
-        <Container>
+    let Cards = [];
 
-        </Container>
+    for (let i = 0; i < 4; i++) {
+        Cards.push(<Card key={i} />);
+    }
+
+    return (
+        <Fragment>
+            <Header>
+                <h2>Find the property of your dreams!</h2>
+            </Header>
+            <Wrapper>
+                {Cards}
+            </Wrapper>
+        </Fragment>
     );
 }
 

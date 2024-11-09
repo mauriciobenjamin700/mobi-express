@@ -1,10 +1,17 @@
 import styled from "styled-components";
 
 
-export const Container = styled.div`
+export const Header = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 20px;
-    background-color: #f1f1f1;
+    padding: 25px 150px;
 `;
+
+export const Wrapper = styled.div`
+    display: flex;
+    justify-content: space-beetwen;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 150px;
+`
