@@ -7,3 +7,4 @@ Este projeto foi desenvolvido seguindo o curso do parceiro [Nilton R.C Santos](h
 ## Passos
 
 - Dia 1: Parei na aula 1 aos 40:16
+- Dia 2: Terminei a aula 1
