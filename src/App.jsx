@@ -1,7 +1,9 @@
-import Header from "./components/Header";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Global from "./styles/Global";
 import Home from "./pages/Home";
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Header />
       <Banner />
       <Home />
+      <Footer />
       <Global />
     </div>
   );

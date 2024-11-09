@@ -21,7 +21,7 @@ export default createGlobalStyle`
         font-weight: 400;
         font-family: 'Roboto', sans-serif;
     }
-    ul{list-style-type: none;}
+    ul, nav{list-style-type: none;}
     a{text-decoration: none;}
 
 `
