@@ -1,6 +1,6 @@
 import { Container, Text} from "./styles";
 
-const Banner =() => {
+const Banner = () => {
  return (
    <Container>
     <Text>
