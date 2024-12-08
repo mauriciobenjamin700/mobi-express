@@ -13,6 +13,8 @@ export default createGlobalStyle`
         --gray: #D9D9D9;
         --blue: #4766FF;
         --white: #FFFFFF;
+        --light-gray: #e5e1dc
+        --shade: #efefef
     }
     body{
         background-color: var(--primary);

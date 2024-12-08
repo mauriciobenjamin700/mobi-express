@@ -22,6 +22,8 @@ const Imobi = () => {
 
                     <S.Description>
 
+                        <h2>Apartamento / Alugar</h2>
+
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias expedita, et accusamus eos inventore sunt debitis necessitatibus suscipit, ex nobis omnis quibusdam porro? Corrupti sint cum perspiciatis eos dolorem doloremque.</p>
 
                     </S.Description>
@@ -31,7 +33,7 @@ const Imobi = () => {
                 <S.Profile>
 
                     <S.ProfileImage>
-                        <img src="hhttps://images.unsplash.com/placeholder-avatars/extra-large.jpg?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff" alt="" />
+                        <img src="https://images.unsplash.com/placeholder-avatars/extra-large.jpg?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff" alt="" />
                     </S.ProfileImage>
 
                     <S.ProfileDescription>
@@ -50,9 +52,9 @@ const Imobi = () => {
                     <S.ProfileFormContact>
                         <h3>Contate o anunciante</h3>
                         <form action="">
-                            <input type="text" name="" id=""/>
-                            <input type="text" name="" id=""/>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <input type="text" name="" id="" placeholder="Nome:"/>
+                            <input type="text" name="" id="" placeholder="E-mail"/>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
                             <button>Enviar mensagem</button>
                         </form>
                     </S.ProfileFormContact>
