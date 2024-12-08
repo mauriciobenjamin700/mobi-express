@@ -3,6 +3,9 @@ import { Fragment } from "react"
 
 import * as S from "./styles.js"
 import TopBanner from "../../components/TopBanner"
+import Input from "../../components/Input"
+import Button from "../../components/Button"
+import TextArea from "../../components/TextArea"
 
 
 const Imobi = () => {
@@ -52,10 +55,10 @@ const Imobi = () => {
                     <S.ProfileFormContact>
                         <h3>Contate o anunciante</h3>
                         <form action="">
-                            <input type="text" name="" id="" placeholder="Nome:"/>
-                            <input type="text" name="" id="" placeholder="E-mail"/>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-                            <button>Enviar mensagem</button>
+                            <Input type="text" placeholder="Nome:"/>
+                            <Input type="text" name="" id="" placeholder="E-mail"/>
+                            <TextArea cols="30" rows="10" placeholder="Mensagem" />
+                            <Button>Enviar mensagem</Button>
                         </form>
                     </S.ProfileFormContact>
 
